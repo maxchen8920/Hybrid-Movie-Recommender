@@ -2,7 +2,7 @@
 
 ## Introduction
 This movie recommender combines both collaborative filtering (user ratings) and content-based filtering (genres and tags) to produce a recommendation of 10 similar movies.
-The dataset is the [MovieLens] (https://grouplens.org/datasets/movielens/) ml-latest-small dataset with "100,000 ratings and 3,600 tag applications applied to 9,000 movies by 600 users".
+The dataset is the [MovieLens](https://grouplens.org/datasets/movielens/) ml-latest-small dataset with "100,000 ratings and 3,600 tag applications applied to 9,000 movies by 600 users".
 
 For collaborative filtering, I performed item-based collaborative filtering by applying Truncated SVD on an item-to-user rating matrix. This utilises past user ratings on movies to determine what other movies were rated highly by users who also rated a specific movie similarly.
 
